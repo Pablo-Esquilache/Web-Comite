@@ -267,7 +267,8 @@
     .formContacto textarea {
       resize: none;
       width: 500px;
-      margin: 5px; }
+      margin: 5px;
+    color: black }
   
   .pieContacto {
     display: none; }
