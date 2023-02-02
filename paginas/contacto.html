@@ -44,11 +44,24 @@
     <section class="sectionContacto">
         <h1>Formulario de contacto</h1>
         <div class="formContainer">
-            <form name="formularioContacto">
+            <!-- <form action="mail.php" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name"><br><br>
+               
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email"><br><br>
+               
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+               
+                <input type="submit" value="Enviar">
+              </form> -->
+              
+            <form name="formularioContacto" action="mail.php" method="post">
                 <div class="formContacto">
                     <div>
                         <label for="nombre">Nombre y Apellido</label><br>
-                        <input type="text" name="nombre" id="nombre" required>
+                        <input type="text" name="name" id="nombre" required>
                     </div>
                     <div>
                         <label for="email">E Mail</label><br>
@@ -60,10 +73,10 @@
                     </div>
                     <div>
                         <label for="mensaje"> Mensaje</label><br>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                        <textarea name="message" id="mensaje" cols="30" rows="10" required></textarea>
                     </div>
                     <div>
-                        <input id="enviarCorreo" type="button" value="Enviar">
+                        <input id="enviarCorreo" type="submit" value="Enviar">
                     </div>
                 </div>
             </form>
