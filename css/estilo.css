@@ -267,6 +267,7 @@
     .formContacto textarea {
       resize: none;
       width: 500px;
+      height: 150px;
       margin: 5px;
     color: black }
   
