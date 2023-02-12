@@ -1,0 +1,88 @@
+.scetionConcejales {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px 0 15px;
+  font-size: 2rem;
+}
+
+.txtConcejales {
+  text-align: center;
+}
+
+.listadoConcejales {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.concejales {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+.concejales img {
+  width: 200px;
+  height: 150px;
+}
+
+.txtConcejal {
+  padding-top: 15px;
+}
+.txtConcejal h3 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .scetionConcejales {
+    font-size: 1.8rem;
+  }
+  .listadoConcejales {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .concejales {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  .txtConcejal {
+    padding: 0px;
+    margin-left: 15px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+  .txtConcejal h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .scetionConcejales {
+    font-size: 1.5rem;
+  }
+  .listadoConcejales {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .concejales {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+  .txtConcejal {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .txtConcejal h3 {
+    font-size: 1.5rem;
+  }
+}

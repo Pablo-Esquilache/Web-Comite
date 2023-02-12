@@ -1,0 +1,54 @@
+.menuIndex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  height: 50px;
+  font-size: 1.8rem;
+}
+.menuIndex li {
+  display: inline;
+  text-decoration: none;
+}
+.menuIndex li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menuIndex li :hover {
+  border-bottom: solid 2px white;
+  transition: 2s;
+}
+
+.menuIndexIcon {
+  display: none;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+  .menuIndexIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    height: 50px;
+    font-size: 1.8rem;
+  }
+  .menuIndexIcon li {
+    display: inline;
+    text-decoration: none;
+  }
+  .menuIndexIcon li a {
+    color: white;
+    text-decoration: none;
+  }
+  .menuIndex {
+    display: none;
+  }
+}

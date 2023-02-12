@@ -1,0 +1,137 @@
+.caruselInicio {
+  max-width: 600px;
+  max-height: 600px;
+  margin: 5px auto 0;
+  overflow: hidden;
+}
+.caruselInicio ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+.caruselInicio li {
+  width: 100%;
+  list-style: none;
+}
+.caruselInicio img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caruselInicio {
+    max-width: 550px;
+    max-height: 550px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .caruselInicio {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sectionFooter {
+    display: none;
+  }
+}
+
+.sectionJr {
+  width: 100%;
+  height: 100vh;
+}
+
+.caruselJr {
+  max-width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+.caruselJr ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slideCarrusel 20s infinite alternate ease-in-out;
+}
+.caruselJr li {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.caruselJr li .div1 {
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+}
+.caruselJr li .div2 {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+}
+.caruselJr li .div3 {
+  width: 100%;
+  height: 300px;
+  background-color: green;
+}
+.caruselJr li .div4 {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+}
+.caruselJr li img {
+  width: 100%;
+}
+
+@keyframes slideCarrusel {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}

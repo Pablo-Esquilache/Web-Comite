@@ -1,0 +1,38 @@
+.sectionFooter {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 15px 0 15px;
+  background-color: white;
+  font-size: 1.8rem;
+}
+.sectionFooter li {
+  list-style: none;
+  color: black;
+}
+
+.imgFooter {
+  width: 100px;
+}
+.imgFooter a {
+  text-decoration: none;
+  background-color: none;
+  font-size: 30px;
+  color: black;
+}
+
+.listFooter i {
+  font-size: 17.5px;
+  color: black;
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sectionFooter {
+    display: none;
+  }
+}

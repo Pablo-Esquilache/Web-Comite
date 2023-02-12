@@ -1,0 +1,97 @@
+.sectionContacto {
+  margin: 0 15px 0 15px;
+  font-size: 2rem;
+}
+.sectionContacto h1 {
+  text-align: center;
+}
+.formContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formContacto input {
+  width: 500px;
+  margin: 5px;
+  color: black;
+}
+.formContacto textarea {
+  resize: none;
+  width: 500px;
+  height: 150px;
+  margin: 5px;
+  color: black;
+}
+.pieContacto {
+  display: none;
+}
+.whatsapp a {
+    text-decoration: none;
+  }
+  .whatsapp button  {
+  background-color: green;
+  }
+
+@media screen and (max-width: 768px) {
+  .sectionContacto {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+  .formContacto input {
+    width: 400px;
+  }
+  .formContacto textarea {
+    width: 400px;
+  }
+  .pieContacto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .pieContacto li {
+    list-style: none;
+    margin-right: 0px;
+    padding: 3px;
+    font-size: 1.1rem;
+  }
+  .pieContacto li i {
+    font-size: 1.1rem;
+    margin-right: 3px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .sectionContacto {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  .formContacto input {
+    width: 350px;
+  }
+  .formContacto textarea {
+    width: 350px;
+  }
+  .pieContacto li {
+    font-size: 1.3rem;
+  }
+  .pieContacto li i {
+    font-size: 1.3rem;
+  }
+  .listContacto1 {
+    width: 60%;
+  }
+  .listContacto1 ul {
+    width: 100%;
+    text-align: start;
+  }
+  .listContacto2 {
+    width: 40%;
+  }
+  .listContacto2 ul {
+    width: 100%;
+    text-align: start;
+    padding-left: 0px;
+  }
+}
