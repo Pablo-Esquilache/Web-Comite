@@ -1,11 +1,8 @@
 .sectionContacto {
-  width: 100%;
-  height: 100vh;
   margin: 0 15px 0 15px;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .sectionContacto h1 {
@@ -46,7 +43,6 @@
 
 @media screen and (max-width: 768px) {
   .sectionContacto {
-    margin-bottom: 15px;
     font-size: 1.8rem;
   }
   .formContacto input {
@@ -60,7 +56,6 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    margin-top: 30px;
   }
   .pieContacto li {
     list-style: none;
