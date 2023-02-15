@@ -35,10 +35,13 @@
   justify-content: flex-end;
   margin-top: 40px;
 }
-.whatsapp a {
+/* .whatsapp a {
   font-size: 80px;
   text-decoration: none;
   color:rgb(37, 211, 102);
+} */
+.whatsapp img {
+  width: 100px;
 }
 
 @media screen and (max-width: 768px) {
