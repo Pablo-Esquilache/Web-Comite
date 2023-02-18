@@ -1,13 +1,12 @@
 .sectionFooter {
   width: 100%;
-  height: 120px;
+  height: 140px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-  padding: 0 15px 0 15px;
-  background-color: white;
+  background-image: linear-gradient(to bottom,  rgb(214, 33, 48), rgb(207, 85, 96), rgb(255, 255, 255) 35%);
   font-size: 1.8rem;
 }
 .sectionFooter li {

@@ -3,7 +3,7 @@
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  z-index: 10;
 }
 .sectionContacto h1 {
   text-align: center;
@@ -30,15 +30,22 @@
 }
 .whatsapp {
   display: flex;
-  flex-direction: row;
-  width: 90%;
+  position: sticky;  
+  height: 100%;
+  bottom: 20px;
+  margin-right: 20px;
   justify-content: flex-end;
-  margin-top: 40px;
 }
-/* .whatsapp a {
-  font-size: 80px;
-  text-decoration: none;
-  color:rgb(37, 211, 102);
+/* .whatsapp {
+  position: fixed;
+  display: flex;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  z-index: 9;
 } */
 .whatsapp img {
   width: 100px;
@@ -69,6 +76,9 @@
   .pieContacto li i {
     font-size: 1.1rem;
     margin-right: 3px;
+  }
+  .whatsapp img {
+    width: 80px;
   }
 }
 
@@ -103,5 +113,8 @@
     width: 100%;
     text-align: start;
     padding-left: 0px;
+  }
+  .whatsapp img {
+    width: 60px;
   }
 }
