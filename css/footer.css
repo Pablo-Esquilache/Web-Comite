@@ -6,7 +6,8 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
-  background-image: linear-gradient(to bottom,  rgb(214, 33, 48), rgb(207, 85, 96), rgb(255, 255, 255) 35%);
+  /* background-image: linear-gradient(to bottom,  rgb(214, 33, 48), rgb(207, 85, 96), rgb(255, 255, 255)); */
+  background-color: rgb(255, 255, 255);
   font-size: 1.8rem;
 }
 .sectionFooter li {
