@@ -32,7 +32,7 @@
   display: flex;
   position: sticky;  
   height: 100%;
-  bottom: 20px;
+  bottom: 0px;
   margin-right: 20px;
   justify-content: flex-end;
 }
