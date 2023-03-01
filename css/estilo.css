@@ -31,23 +31,20 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  /* body {
-    background-color: #d52230;
-    width: 100%;
-    height: 100vh;
-  } */
   body h1 {
     font-size: 4rem;
+  }
+  main {
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  /* body {
-    background-color: #d52230;
-    width: 100%;
-    height: 100vh;
-  } */
+
   body h1 {
     font-size: 3rem;
+  }
+  main {
+    margin-bottom: 20px;
   }
 }

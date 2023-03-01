@@ -34,6 +34,9 @@
 .txtAutoridades h4 {
   font-size: 2rem;
 }
+.txtAuridades2 {
+  margin-top: 30px;
+}
 
 @media screen and (max-width: 768px) {
   .spanSectionMesa {
