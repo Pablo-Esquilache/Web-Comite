@@ -13,6 +13,7 @@ document.getElementById("form").addEventListener("submit", function (e) {
       btn.value = "Enviar";
       btn.value = "Mensaje enviado!";
       form.reset();
+      btn.value = "Enviar";
     },
     (err) => {
       btn.value = "Send Email";
